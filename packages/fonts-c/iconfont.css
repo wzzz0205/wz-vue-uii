@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4410390 */
+  src: url('iconfont.woff2?t=1705242197078') format('woff2'),
+       url('iconfont.woff?t=1705242197078') format('woff'),
+       url('iconfont.ttf?t=1705242197078') format('truetype');
+}
+
+[class*='wz-icon'] {
+  font-family: "iconfont" !important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wz-icon-lineRight:before {
+  content: "\e65f";
+}
+
+.wz-icon-fullLeft:before {
+  content: "\e660";
+}
+
+.wz-icon-fullRight:before {
+  content: "\e661";
+}
+
+.wz-icon-fullTop:before {
+  content: "\e662";
+}
+
+.wz-icon-fullDown:before {
+  content: "\e663";
+}
+
+.wz-icon-lessTop:before {
+  content: "\e658";
+}
+
+.wz-icon-lessLeft:before {
+  content: "\e659";
+}
+
+.wz-icon-lessDown:before {
+  content: "\e65a";
+}
+
+.wz-icon-lessRight:before {
+  content: "\e65b";
+}
+
+.wz-icon-lineLeft:before {
+  content: "\e65c";
+}
+
+.wz-icon-lineDown:before {
+  content: "\e65d";
+}
+
+.wz-icon-lineTop:before {
+  content: "\e65e";
+}
+
+.wz-icon-jubao:before {
+  content: "\e61d";
+}
+

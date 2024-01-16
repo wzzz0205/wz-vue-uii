@@ -11,7 +11,8 @@ import Switch from './switch'
 import CheckboxGroup from './checkbox-group'
 import Form from './form'
 import FormItem from './form-item'
-import './fonts/iconfont.css'
+import Icon from './icon.vue'
+import './fonts-c/iconfont.css'
 
 const components = [
   Button,
@@ -23,7 +24,8 @@ const components = [
   Switch,
   CheckboxGroup,
   Form,
-  FormItem
+  FormItem,
+  Icon
 ]
 // 定义install方法
 const install = function (Vue) {

@@ -8,7 +8,7 @@
   @click="handleClick"
   :disabled="disabled"
   >
-  <i v-if="icon" :class="`one-icon-${icon}`"></i>
+  <i v-if="icon" :class="`wz-icon-${icon}`"></i>
   <!-- 如果没传入文本插槽，则不显示span内容 -->
    <span v-if="$slots.default"><slot></slot></span>
   </button>
@@ -17,7 +17,7 @@
 <script>
 
 export default {
-  name: 'oneButton',
+  name: 'WzButton',
   // 此时对props进行校验，值接收string类型的type值
   props: {
     type: {
